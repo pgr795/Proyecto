@@ -39,3 +39,7 @@
 	}
 
 </script>
+
+
+
+ALTER TABLE libros ADD FOREIGN KEY(USUARIOS) REFERENCES usuarios(CustomerId);
